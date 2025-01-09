@@ -66,7 +66,6 @@ function Channel() {
             <input
               type="text"
               id="avatar"
-              value
               onChange={(e) => setAvatar(e.target.value)}
               className="w-full p-2 mt-1 bg-gray-700 border border-gray-600 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500"
               required
