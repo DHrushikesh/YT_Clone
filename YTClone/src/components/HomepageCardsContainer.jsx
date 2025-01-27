@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import HomePageCard from "./HomePageCard";
+import HomePageCard from "./HomepageCard";
 import { setVideos } from "../assets/videosslice";
 import { Link, useOutletContext } from "react-router-dom";
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import HomePageCard from './HomePageCard'; // Import the HomePageCard component
+import HomePageCard from './HomepageCard'; // Import the HomePageCard component
 
 function ManageVideos() {
   const [videos, setVideos] = useState([]);
