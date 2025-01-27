@@ -9,12 +9,13 @@ mongoose.connect("mongodb+srv://hrushikesh2003:klausyt2003@ytclone.w4d9a.mongodb
 
 
 const app = express();
+let port = process.env.PORT || 9000
 app.use(express.json());
 app.use(bodyParser.json());
 
 app.use(cors());
 
-app.listen(9000, () => {
+app.listen(port, () => {
   console.log('Server is running on port 9000');
 });
 
